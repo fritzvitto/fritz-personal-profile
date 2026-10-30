@@ -13,3 +13,12 @@
 @media(max-width:900px){.hero{gap:10px;grid-template-columns:1fr 1fr}.hero-meta{flex-direction:column;gap:10px}.interest-grid{grid-template-columns:repeat(2,1fr)}.about-section,.skills-section{gap:40px}.profile-visual{transform:scale(.9)}}
 @media(max-width:650px){.section-shell,.site-header{width:calc(100% - 40px)}.site-header{height:70px}.menu-toggle{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:10px;cursor:pointer}.menu-toggle span{display:block;width:21px;height:1px;background:var(--text)}.nav-links{display:none;position:absolute;top:69px;left:0;right:0;padding:20px;background:#101b2c;border:1px solid var(--line);flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}.nav-contact{text-align:center}.hero{display:flex;flex-direction:column;align-items:stretch;padding-top:60px;padding-bottom:55px;gap:25px}.intro-label{margin-top:38px}.hero h1{font-size:clamp(58px,16vw,82px)}.hero-meta{margin-top:38px}.profile-visual{min-height:430px;transform:none}.profile-card{width:280px}.orbit-one{width:340px}.orbit-two{height:400px}.chip-top{right:0;top:45px}.chip-bottom{left:0;bottom:45px}.about-section,.skills-section{grid-template-columns:1fr;gap:15px;padding-top:75px;padding-bottom:75px}.about-lead{font-size:20px}.about-facts{gap:8px}.fact-label{font-size:9px}.interests-section{padding:75px 0}.heading-row{display:block}.heading-note{margin-top:20px}.interest-grid{gap:9px}.interest-card{padding:16px;min-height:240px}.interest-card h3{font-size:14px}.interest-card p{font-size:10px}.interest-icon{margin:22px 0 15px}.skill-list>div{font-size:11px}.skill-tag{font-size:7px}.contact-section{padding:65px 0 45px}.contact-main{align-items:flex-start;flex-direction:column}.contact-main h2{font-size:42px}.contact-note{margin-top:35px}.site-footer{padding-top:24px;padding-bottom:24px;display:grid;grid-template-columns:1fr 1fr}.site-footer>span:nth-child(2){text-align:right}.back-top{text-align:left}.copyright{text-align:right}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+.avatar-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  border-radius: 7px;
+}
